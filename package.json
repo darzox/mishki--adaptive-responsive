@@ -1,0 +1,29 @@
+{
+  "name": "mishka",
+  "version": "1.0.0",
+  "description": "online-shop",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp sass",
+    "start": "npm run build && gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darzox/mishki--adaptive-responsive.git"
+  },
+  "author": "Askhat Bakitov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darzox/mishki--adaptive-responsive/issues"
+  },
+  "homepage": "https://github.com/darzox/mishki--adaptive-responsive#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.2",
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
