@@ -9,8 +9,12 @@
 </head>
 <body>
   <header class="page-header">
-    <a class="page-header__logo" href="#" >
-      <img class="page-header__logo-image" src="" alt="Логотип Мишки">
+    <a class="page-header__logo" href="#">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="svg/logotype-desktop.svg">
+        <source media="(min-width: 768px)" srcset="svg/logotype-tablet.svg">
+        <img class="page-header__logo-image" width="86" height="35" src="svg/logotype-mobile.svg" alt="Логотип Мишки">
+      </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">Открыть меню</button>
