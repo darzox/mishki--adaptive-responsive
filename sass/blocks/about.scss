@@ -1,0 +1,209 @@
+@import "../scaffolding";
+@import "../varibles";
+@import "../mixin";
+
+.about {
+  margin-top: 30px; 
+}
+
+.about__wrapper {
+  min-width: 260px;
+  width: 81.25%;
+  margin: 0 auto;
+}
+
+.about__heading {
+  margin: 0;
+
+  @include font-bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.about__list {
+  margin: 0;
+  margin-bottom: 58px; 
+  padding: 0;
+  
+  list-style: none;
+}
+
+.about__item {
+  position: relative;
+
+  margin-top: 83px;
+
+  @include font-bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.about__item--ecology::after {
+  content: "";
+
+  width: 32px;
+  height: 37px;
+
+  position: absolute;
+  bottom: 55px;
+  left: 8px;
+
+  background-image: url(../svg/icon-1.svg);
+  background-repeat: no-repeat;
+}
+
+.about__item--ruble::after {
+  content: "";
+
+  width: 47px;
+  height: 27px;
+
+  position: absolute;
+  bottom: 64px;
+  left: 0;
+
+  background-image: url(../svg/icon-2.svg);
+  background-repeat: no-repeat;
+}
+
+.about__item--likes::after {
+  content: "";
+
+  width: 34px;
+  height: 27px;
+
+  position: absolute;
+  bottom: 60px;
+  left: 7px;
+
+  background-image: url(../svg/icon-3.svg);
+  background-repeat: no-repeat;
+}
+
+.about__item--handmade::after {
+  content: "";
+
+  width: 35px;
+  height: 34px;
+
+  position: absolute;
+  bottom: 56px;
+  left: 3px;
+
+  background-image: url(../svg/icon-4.svg);
+  background-repeat: no-repeat;
+}
+
+.about__item--support::after {
+  content: "";
+
+  width: 55px;
+  height: 23px;
+
+  position: absolute;
+  bottom: 66px;
+  left: -6px;
+
+  background-image: url(../svg/icon-5.svg);
+  background-repeat: no-repeat;
+}
+
+.about__item--package::after {
+  content: "";
+
+  width: 33px;
+  height: 32px;
+
+  position: absolute;
+  bottom: 60px;
+  left: 3px;
+
+  background-image: url(../svg/icon-6.svg);
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 486px) and (max-width: $tablet-width) {
+  .about__item br {
+    display: none;
+  }
+
+  .about__item--ecology::after {
+    bottom: 35px;
+  }
+  
+  .about__item--ruble::after {
+    bottom: 44px;
+  }
+  
+  .about__item--likes::after {
+    bottom: 40px;
+  }
+  
+  .about__item--handmade::after {
+    bottom: 36px;
+  }
+  
+  .about__item--support::after {
+    bottom: 46px;
+  }
+  
+  .about__item--package::after {
+    bottom: 40px;
+  }
+}
+
+
+@media (min-width: $tablet-width) {
+  .about {
+    margin-top: 50px; 
+  }
+
+  .about__wrapper {
+    min-width: 668px;
+    width: 87%;
+  }
+
+  .about__heading {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .about__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-bottom: 80px;
+    height: 465px;
+  }
+
+  .about__item {
+    margin-top: 108px;
+    width: 50%;
+
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .about {
+    margin-top: 63px; 
+  }
+  
+  .about__wrapper {
+    max-width: 700px;
+  }
+  
+  .about__heading {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .about__list {
+    margin-bottom: 85px;
+  }
+
+}
