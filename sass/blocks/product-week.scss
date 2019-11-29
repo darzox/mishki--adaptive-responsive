@@ -121,6 +121,7 @@
     width: 87%;
     min-width: 668px;
     margin: 0 auto;
+    margin-bottom: 55px;
   }
 
   .product-week__wrapper-header {
@@ -164,6 +165,7 @@
 
   .product-week__image-container {
     width: 50%;
+    margin-bottom: 0;
 
     text-align: right;
   }
@@ -172,7 +174,8 @@
     position: absolute;
     bottom: 0;
     left: 0;
-
+    
+    margin-bottom: 0;
     width: 44%;
   }
 
@@ -187,6 +190,7 @@
     position: relative;
 
     max-width: 1050px;
+    margin-bottom: 75px;
   }
 
   .product-week__wrapper-header {
@@ -226,6 +230,10 @@
 
     width: 295px;
 
-    margin-bottom: 75px;
+    // margin-bottom: 75px;
+  }
+
+  .product-weekm__zig-zag {
+    height: 23px;
   }
 }
