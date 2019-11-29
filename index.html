@@ -8,59 +8,133 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<svg display="none">
+  <symbol viewBox = "0 0 18 18" id="search-icon">
+      <path d="M17.3,15.7l-3.4-3.4c1-1.3,1.5-2.9,1.5-4.6C15.4,3.4,12,0,7.7,0S0,3.4,0,7.7s3.4,7.7,7.7,7.7
+      c1.7,0,3.3-0.6,4.6-1.5l3.4,3.4c0.2,0.2,0.4,0.3,0.8,0.3c0.6,0,1.1-0.5,1.1-1.1C17.6,16.3,17.5,16,17.3,15.7z M2.2,7.7
+      c0-3,2.5-5.5,5.5-5.5s5.5,2.5,5.5,5.5s-2.5,5.5-5.5,5.5S2.2,10.7,2.2,7.7z"/>
+  </symbol>
+  <symbol viewBox = "0 0 21 18" id="cart-icon"> 
+      <path d="M19.5,7.2h-3.2l-3.4-6.8c-0.2-0.4-0.6-0.5-1-0.3s-0.5,0.6-0.3,1l3.1,6.1H5.6l3.1-6.1c0.2-0.4,0-0.8-0.3-1
+      c-0.4-0.2-0.8,0-1,0.3L4,7.2H0.8C0.4,7.2,0,7.5,0,8c0,0.4,0.3,0.8,0.8,0.8H1l0.9,3c-0.2,0.1-0.3,0.3-0.3,0.6c0,0.4,0.3,0.7,0.7,0.7
+      L4,18.9h12.7l1.7-5.8c0.4,0,0.7-0.3,0.7-0.7c0-0.2-0.1-0.5-0.3-0.6l0.9-3h0.2c0.4,0,0.8-0.3,0.8-0.8C20.3,7.5,20,7.2,19.5,7.2z
+      M15.4,17.3H5L3.8,13h12.9L15.4,17.3z M17,11.5H3.3L2.5,8.7h15.3L17,11.5z"/>
+  </symbol>
+  <symbol viewBox="0 0 1200 34" id="zig-zag-desktop">
+      <path fill="#FFFFFF" d="M1121.3,0c-14.4,0-14.4,14-28.7,14s-14.4-14-28.7-14s-14.4,14-28.7,14c-14.4,0-14.4-14-28.8-14
+      c-14.4,0-14.4,14-28.7,14c-14.4,0-14.4-14-28.7-14c-14.4,0-14.4,14-28.7,14S905.6,0,891.3,0c-14.4,0-14.4,14-28.7,14
+      S848.1,0,833.8,0c-14.4,0-14.4,14-28.7,14c-14.4,0-14.4-14-28.8-14c-14.4,0-14.4,14-28.7,14c-14.4,0-14.4-14-28.7-14
+      S704.4,14,690,14c-14.4,0-14.4-14-28.7-14c-14.4,0-14.4,14-28.7,14c-14.4,0-14.4-14-28.8-14c-14.4,0-14.4,14-28.7,14
+      c-14.4,0-14.4-14-28.7-14c-14.4,0-14.4,14-28.7,14c-14.4,0-14.4-14-28.7-14c-14.4,0-14.4,14-28.8,14c-14.4,0-14.4-14-28.8-14
+      c-14.4,0-14.4,14-28.8,14c-14.4,0-14.4-14-28.8-14c-14.4,0-14.4,14-28.8,14c-14.4,0-14.4-14-28.8-14s-14.4,14-28.8,14
+      c-14.4,0-14.4-14-28.8-14c-14.4,0-14.4,14-28.7,14c-14.4,0-14.4-14-28.8-14c-14.4,0-14.4,14-28.8,14c-14.4,0-14.4-14-28.8-14
+      c-14.4,0-14.4,14-28.8,14c-14.4,0-14.4-14-28.8-14C71.9,0,71.9,14,57.5,14C43.1,14,43.1,0,28.8,0S14.4,14,0,14v20h1150V14
+      C1135.6,14,1135.6,0,1121.3,0z"/>
+  </symbol>
+</svg>
   <header class="page-header">
-    <a class="page-header__logo" href="#">
-      <picture>
-        <source media="(min-width: 1200px)" srcset="svg/logotype-desktop.svg">
-        <source media="(min-width: 768px)" srcset="svg/logotype-tablet.svg">
-        <img class="page-header__logo-image" width="86" height="35" src="svg/logotype-mobile.svg" alt="Логотип Мишки">
-      </picture>
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Открыть меню</button>
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item"><a href="#">Каталог товаров</a></li>
-        <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
-        <li class="site-list__item"><input class="site-list__search" type="text"></li>
-        <li class="site-list__item"><a href="#">Корзина: пока пуста</a></li>
-      </ul>
-      <ul class="main-nav__list main-nav__list--desktop site-list--desktop">
-        <li class="site-list__item"><a href="#">Новые поступления</a></li>
-        <li class="site-list__item"><a href="#">Распродажа</a></li>
-      </ul>
-    </nav>
-    <b class="info page-header__info ">Бесплатная</b>
-    <b class="page-header__slogan">Милые штуки ручной работы для дома</b>
+    <div class="page-header__wrapper">
+      <div class="page-header__wrapper-logo">
+        <a class="page-header__logo" href="#">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="svg/logotype-desktop.svg">
+            <source media="(min-width: 768px)" srcset="svg/logotype-tablet.svg">
+            <img class="page-header__logo-image" width="86" height="35" src="svg/logotype-mobile.svg" alt="Логотип Мишки">
+          </picture>
+        </a>
+      </div>
+      <nav class="desktop-nav">
+        <ul class="desktop-nav__list site-list">
+          <li class="site-list__item"><a href="#">Каталог товаров</a></li>
+          <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
+        </ul>
+      </nav>
+      <nav class="main-nav main-nav--closed main-nav--no-js">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item"><a href="#">Каталог товаров</a></li>
+          <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
+          <li class="site-list__item">
+            <input class="site-list__search" type="text" id="site-list__search" placeholder="Поиск по сайту">
+            <label for="site-list__search"><svg class="site-list__search-icon" width="18" height="18"><use xlink:href="#search-icon"></use></svg></label>
+          </li>
+          <li class="site-list__item"><a href="#"><svg class="site-list__cart-icon" width="21" height="18"><use xlink:href="#cart-icon"></use></svg>Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+      <nav class="tablet-nav">
+        <ul class="tablet-nav__list site-list">
+          <li class="site-list__item">
+            <input class="site-list__search" type="text" id="site-list__search-tablet">
+            <label for="site-list__search-tablet"><svg class="site-list__search-icon" width="18" height="18"><use xlink:href="#search-icon"></use></svg></label>
+          </li>
+          <li class="site-list__item"><a href="#"><svg class="site-list__cart-icon" width="21" height="18"><use xlink:href="#cart-icon"></use></svg><span>Корзина: пока пуста</span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="page-header__background">
+      <div class="page-header__wrapper">
+        <nav class="page-header__list">
+          <ul class="page-header__list--only-tablet site-list">
+            <li class="site-list__item"><a href="#">Каталог товаров</a></li>
+            <li class="site-list__item"><a href="#">Вязание на заказ</a></li>
+          </ul>
+          <ul class="page-header__list--only-desktop site-list">
+            <li class="site-list__item"><a href="#">Новые поступления</a></li>
+            <li class="site-list__item"><a href="#">Распродажа</a></li>
+          </ul>
+        </nav>
+        <b class="page-header__info info">Бесплатная доставка по России</b>
+       </div>
+      <b class="page-header__slogan">Милые штуки ручной <br> работы для дома</b>
+    </div>
     <nav class="secondary-nav">
       <ul class="secondary-nav__list product-list">
-        <li class="product-list__item product-list__item--interior"><a href="#">Предметы интерьра</a></li>
-        <li class="product-list__item product-list__item--toys"><a href="#">Детские игрушки</a></li>
+        <li class="product-list__item product-list__item--interior"><a href="#">Предметы<br> интерьра</a></li>
+        <li class="product-list__item product-list__item--toys"><a href="#">Детские <br> игрушки</a></li>
       </ul>
     </nav>
+    <div class="page-header__zig-zag"></div>
   </header>
   <main class="page-main">
     <h1 class="visually-hidden">Мишка - онлайн-магазин вещей ручной работы</h1>
     <section class="product-week">
-      <h2 class="product-week__heading">Товар недели</h2>
-      <h3 class="product-week__title">Вязаные корзинки</h3>
-      <p class="product-week__info">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-      <table class="product-week__list">
-        <tr>
-          <td class="product-week__parametr">Цвет:</td>
-          <td class="product-week__value">"Тиффани"/серый</td>
-        </tr>
-        <tr>
-          <td class="product-week__parametr">Диаметр:</td>
-          <td class="product-week__value">25 см</td>
-        </tr>
-        <tr>
-          <td class="product-week__parametr">Высота:</td>
-          <td class="product-week__value">15 см</td>
-        </tr>
-      </table>
-      <img class="product-week__image" src="" alt="Вязанные корзинки">
-      <b class="product-week__price">Цена: 990 руб.</b>
-      <a class="product-week__buy button" href="#">Заказать</a>
+      <div class="product-week__wrapper">
+        <div class="product-week__wrapper-header">
+          <h2 class="product-week__heading">Товар недели</h2> 
+          <h3 class="product-week__title">Вязаные корзинки</h3>
+        </div>
+        <div class="product-week__container">
+          <div class="product-week__info-container">
+            <p class="product-week__info">Экологически чистая пряжа, <br> ручная&nbsp;работа. Доступны в шести расцветках, и трех размерах.</p>
+            <table class="product-week__list">
+              <tr>
+                <td class="product-week__parametr">Цвет:</td>
+                <td class="product-week__value">"Тиффани"/серый</td>
+              </tr>
+              <tr>
+                <td class="product-week__parametr">Диаметр:</td>
+                <td class="product-week__value">25 см</td>
+              </tr>
+              <tr>
+                <td class="product-week__parametr">Высота:</td>
+                <td class="product-week__value">15 см</td>
+              </tr>
+            </table>
+        </div>
+          <div class="product-week__image-container">
+            <picture>
+              <source media="(min-width: 1250px)" srcset="img/triple-set-desktop.jpg">
+              <source media="(min-width: 768px)" srcset="img/triple-set-tablet.jpg">
+              <img class="product-week__image" src="img/triple-set-mobile.jpg" alt="Вязанные корзинки">
+            </picture>
+          </div>
+          <div class="product-week__order">
+            <b class="product-week__price">Цена: 990 руб.</b>
+            <a class="product-week__button button" href="#">Заказать</a>
+          </div>
+        </div>
+      </div>
+      <div class="product-weekm__zig-zag"></div>
     </section>
     <section class="about">
       <h2 class="about__heading">Коротко о нас:</h2>
@@ -134,5 +208,6 @@
       <a class="copyright__link copyright__link--logo" href="">HTML Academy</a>
     </div>
   </footer>
+  <script src="js/menu-mobile.js"></script>
 </body>
 </html>

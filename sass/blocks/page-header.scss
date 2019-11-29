@@ -5,12 +5,14 @@
 .page-header {
   position: relative;
 
+  margin-bottom: 30px;
+
   border-top: 1px solid #ececec;
 }
 
 .page-header__wrapper-logo {
-  width: 87.5%;
-  min-width: 320px;
+  width: 81.25%;
+  min-width: 260px;
   margin: 0 auto;
   padding: 20px 0;
 
@@ -18,12 +20,12 @@
 }
 
 .page-header__background {
-  background-color: #ffffff;
-  background-image: url("../img/hero-mobile.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  text-align: center;
+  background-color: #f9f9f9;
+    background-image: url("../img/hero-mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center 7px;
+    background-size: contain;
+    text-align: center;
 }
 
 .page-header__slogan {
@@ -64,7 +66,7 @@
 
   position: absolute;
   top: 32px;
-  right: calc(12.5%/2);
+  right: calc(18.75%/2);
   
   background-color: transparent;
 
@@ -90,7 +92,7 @@
 
   position: absolute;
   top: 29px;
-  right: calc(12.5%/2);
+  right: calc(18.75%/2);
   
   background-color: transparent;
 
@@ -153,6 +155,14 @@
   color: #000000;
 
   text-decoration: none;
+}
+
+.site-list__item a:hover {
+  opacity: 0.6;
+}
+
+.site-list__item a:active {
+  opacity: 0.3;
 }
 
 .site-list__cart-icon {
@@ -236,7 +246,7 @@
   position: relative;
 
   display: block;
-  padding: 0 calc(12.5%/2);
+  padding: 0 calc(18.75%/2);
   padding-top: 27px;
   padding-bottom: 29px;
 
@@ -288,6 +298,10 @@
 
 @media (min-width: $tablet-width) {
 
+  .page-header {
+    margin-bottom: 40px;
+  }
+
   .page-header__background {
     background-image: url('../img/hero-desktop.jpg');
     background-position: center top;
@@ -298,8 +312,8 @@
     justify-content: space-between;
     align-items: center;
 
-    min-width: 640px;
-    width: 83%;
+    min-width: 668px;
+    width: 87%;
     margin: 0 auto;
   }
 
@@ -394,6 +408,18 @@
     & .site-list__item {
       border-left: 1px solid #ececec;
       border-bottom: none;
+
+      & a {
+        opacity: 1;
+      }
+      
+      & a:hover span {
+        opacity: 0.6;
+      }
+
+      & a:active span {
+        opacity: 0.3;
+      }
     }
 
     & .site-list__search {
@@ -424,8 +450,8 @@
   }
 
   .secondary-nav {
-    width: 83%;
-    min-width: 640px;
+    width: 87%;
+    min-width: 668px;
     margin: 0 auto;
     margin-top: -110px;
   }
@@ -450,6 +476,10 @@
 
 
 @media (min-width: $desktop-width) {
+  .page-header {
+    margin-bottom: 55px;
+  }
+
   .page-header__wrapper {
 
     max-width: 1050px;
