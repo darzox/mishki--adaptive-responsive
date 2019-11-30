@@ -14,6 +14,8 @@
   padding: 0;
 
   list-style: none;
+
+  cursor: pointer;
 }
 
 .catalog__item {
@@ -22,6 +24,14 @@
   margin-bottom: 30px;
 
   border: 1px solid #ededed;
+}
+
+.catalog__item:hover {
+  box-shadow: 0 10px 5px 0 rgba($color: #000000, $alpha: 0.3);
+}
+
+.catalog__item:active {
+  box-shadow: 0 2px 2px 0 rgba($color: #000000, $alpha: 0.3);
 }
 
 .catalog__image-container {
