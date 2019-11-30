@@ -1330,3 +1330,379 @@ input[type="radio"].visually-hidden {
     display: block; }
   .page-footer__social {
     margin: 0; } }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.button {
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  font-size: 17px;
+  color: #444444;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #444444; }
+
+.button:hover {
+  background-color: #444444;
+  color: #ffffff; }
+
+.button:active {
+  background-color: #444444;
+  color: rgba(255, 255, 255, 0.3); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
+.catalog-page .page-header__background {
+  background-image: none; }
+
+.catalog-page .page-header__slogan {
+  margin-bottom: 80px;
+  padding-bottom: 0; }
+
+@media (min-width: 768px) {
+  .catalog-page .page-header {
+    margin-bottom: 60px; }
+  .catalog-page .page-header__slogan {
+    margin-top: 75px;
+    margin-bottom: 75px; } }
+
+@media (min-width: 1250px) {
+  .catalog-page .page-header {
+    margin-bottom: 90px; }
+  .catalog-page .page-header__slogan {
+    margin-top: 60px;
+    margin-bottom: 80px; } }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.button {
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  font-size: 17px;
+  color: #444444;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #444444; }
+
+.button:hover {
+  background-color: #444444;
+  color: #ffffff; }
+
+.button:active {
+  background-color: #444444;
+  color: rgba(255, 255, 255, 0.3); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
+.catalog__wrapper {
+  min-width: 260px;
+  width: 81.25%;
+  margin: 0 auto; }
+
+.catalog__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.catalog__item {
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  border: 1px solid #ededed; }
+
+.catalog__image-container {
+  margin-bottom: 29px;
+  text-align: center; }
+
+.catalog__image {
+  width: 100%; }
+
+.catalog__text {
+  margin-left: 28px;
+  margin-bottom: 25px; }
+
+.catalog__name {
+  display: block;
+  margin-bottom: 15px;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000; }
+
+.catalog__info {
+  display: block;
+  font-family: 'Open-sans', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #444444; }
+
+.catalog__price {
+  position: relative;
+  display: block;
+  margin-left: 28px;
+  margin-bottom: 29px;
+  padding-top: 25px;
+  width: 78%;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  border-top: 1px solid #ececec; }
+
+.catalog__price--icon::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 19px;
+  background-image: url("../svg/cart-icon.svg");
+  background-repeat: no-repeat;
+  opacity: 0.2; }
+
+@media (min-width: 768px) {
+  .catalog__wrapper {
+    min-width: 668px;
+    width: 87%; }
+  .catalog__item {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 55px; }
+  .catalog__image-container {
+    font-size: 0;
+    margin-bottom: 0; }
+  .catalog__text {
+    margin-top: 26px;
+    margin-bottom: 0; }
+  .catalog__price {
+    position: absolute;
+    bottom: 0;
+    left: 335px;
+    margin-bottom: 26px;
+    width: 40%; } }
+
+@media (min-width: 1250px) {
+  .catalog__wrapper {
+    max-width: 1050px; }
+  .catalog__list {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between; }
+  .catalog__item {
+    position: static;
+    display: block;
+    margin-bottom: 0; }
+  .catalog__image {
+    width: auto; }
+  .catalog__text {
+    margin-bottom: 35px; }
+  .catalog__name {
+    width: 205px;
+    margin-bottom: 0; }
+  .catalog__price {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin-bottom: 26px;
+    width: 256px; } }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+.button {
+  box-sizing: border-box;
+  display: block;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  font-size: 17px;
+  color: #444444;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #444444; }
+
+.button:hover {
+  background-color: #444444;
+  color: #ffffff; }
+
+.button:active {
+  background-color: #444444;
+  color: rgba(255, 255, 255, 0.3); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: 'Open-sans';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
+
+.process {
+  box-sizing: border-box;
+  min-width: 260px;
+  width: 81.25%;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+
+.process__button {
+  margin: 0;
+  padding: 15px 0;
+  text-align: center;
+  background-color: transparent; }
+
+@media (min-width: 768px) {
+  .process {
+    min-width: 668x;
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 40px; } }
+
+@media (min-width: 1250px) {
+  .process {
+    max-width: 1050px;
+    margin-top: 50px;
+    margin-bottom: 50px; } }

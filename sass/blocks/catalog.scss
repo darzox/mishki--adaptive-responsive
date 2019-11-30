@@ -1,0 +1,169 @@
+@import "../scaffolding";
+@import "../varibles";
+@import "../mixin";
+
+
+.catalog__wrapper {
+  min-width: 260px;
+  width: 81.25%;
+  margin: 0 auto;
+}
+
+.catalog__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.catalog__item {
+  box-sizing: border-box;
+
+  margin-bottom: 30px;
+
+  border: 1px solid #ededed;
+}
+
+.catalog__image-container {
+  margin-bottom: 29px;
+
+  text-align: center;
+}
+
+.catalog__image {
+  width: 100%;
+}
+
+.catalog__text {
+  margin-left: 28px;
+  margin-bottom: 25px;
+}
+
+.catalog__name {
+  display: block;
+  margin-bottom: 15px;
+
+  @include font-bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.catalog__info {
+  display: block;
+  @include font-regular;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #444444;
+}
+
+.catalog__price {
+  position: relative;
+
+  display: block;
+  margin-left: 28px;
+  margin-bottom: 29px;
+  padding-top: 25px; 
+  width: 78%;
+
+  @include font-bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+
+  border-top: 1px solid #ececec;
+}
+
+.catalog__price--icon::after {
+  content: '';
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 20px;
+  height: 19px;
+
+  background-image: url("../svg/cart-icon.svg");
+  background-repeat: no-repeat;
+
+  opacity: 0.2;
+}
+
+
+@media (min-width: $tablet-width) {
+  .catalog__wrapper {
+    min-width: 668px;
+    width: 87%;
+  }
+
+  .catalog__item {
+    position: relative;
+
+    display: flex;
+
+    margin-bottom: 55px;
+  }
+
+  .catalog__image-container {
+    font-size: 0;
+    margin-bottom: 0;
+  }
+
+  .catalog__text {
+    margin-top: 26px;
+    margin-bottom: 0;
+  }
+  
+  .catalog__price {
+    position: absolute;
+    bottom: 0;
+    left: 335px;
+
+    margin-bottom: 26px;
+    width: 40%
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .catalog__wrapper {
+    max-width: 1050px;
+  }
+
+  .catalog__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .catalog__item {
+    position: static;
+
+    display: block;
+
+    margin-bottom: 0;
+  }
+
+  .catalog__image {
+    width: auto;
+  }
+
+  .catalog__text {
+    margin-bottom: 35px;
+  }
+
+  .catalog__name {
+    width: 205px;
+    margin-bottom: 0;
+  }
+
+  .catalog__price {
+    position: relative;
+    bottom: auto;
+    left: auto;
+
+    margin-bottom: 26px;
+    width: 256px;
+  }
+}

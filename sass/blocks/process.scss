@@ -1,0 +1,38 @@
+@import "../scaffolding";
+@import "../varibles";
+@import "../mixin";
+
+.process {
+  box-sizing: border-box;
+
+  min-width: 260px;
+  width: 81.25%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.process__button {
+  margin: 0;
+  padding: 15px 0;
+
+  text-align: center;
+
+  background-color: transparent;
+}
+
+@media (min-width: $tablet-width) {
+  .process {
+    min-width: 668x;
+    width: 87%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .process {
+    max-width: 1050px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
