@@ -3,12 +3,14 @@
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -60,12 +62,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .page-header {
@@ -511,12 +515,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -568,12 +574,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .product-week__wrapper {
@@ -765,12 +773,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -822,12 +832,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .about {
@@ -980,12 +992,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1037,12 +1051,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .contacts__wrapper {
@@ -1217,12 +1233,14 @@ iframe {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1274,12 +1292,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .page-footer {
@@ -1335,12 +1355,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1392,12 +1414,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .catalog-page .page-header__background {
@@ -1425,12 +1449,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1482,12 +1508,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .catalog__wrapper {
@@ -1623,12 +1651,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1680,12 +1710,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .process {
@@ -1718,12 +1750,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1775,12 +1809,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .order-page .page-header__background {
@@ -1808,12 +1844,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 body {
@@ -1865,12 +1903,14 @@ input[type="radio"].visually-hidden {
   font-family: 'Open-sans';
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'Open-sans';
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
   src: url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.woff2") format("woff2"); }
 
 .order__wrapper,
